@@ -1,0 +1,14 @@
+{
+  "name": "sc-devtools-atom-js-snippets",
+  "main": "./lib/sc-devtools-atom-js-snippets",
+  "version": "0.0.0",
+  "description": "JavaScript and NodeJS snippets for Atom",
+  "activationEvents": ["sc-devtools-atom-js-snippets:toggle"],
+  "repository": "https://github.com/atom/sc-devtools-atom-js-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

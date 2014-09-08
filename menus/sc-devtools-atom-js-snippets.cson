@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable sc-devtools-atom-js-snippets': 'sc-devtools-atom-js-snippets:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'sc-devtools-atom-js-snippets'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'sc-devtools-atom-js-snippets:toggle' }
+      ]
+    ]
+  }
+]
