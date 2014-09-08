@@ -1,0 +1,8 @@
+'.source.js .spec':
+  'it':
+    'prefix': 'it'
+    'body': """
+        it('should $1', function() {
+            $2
+        });
+    """

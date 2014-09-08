@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect true':
+    'prefix': 'et'
+    'body': """
+        expect($1).toBeTruthy();
+    """

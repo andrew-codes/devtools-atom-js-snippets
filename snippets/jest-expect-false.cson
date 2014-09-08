@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect false':
+    'prefix': 'ef'
+    'body': """
+        expect($1).toBeFalsy();
+    """

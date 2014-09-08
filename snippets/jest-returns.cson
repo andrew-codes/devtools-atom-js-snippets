@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest returns once':
+    'prefix': 'returnsonce'
+    'body': """
+        mockReturnValueOnce($1);
+    """

@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect contains':
+    'prefix': 'econtain'
+    'body': """
+        expect($1).toContain('$2');
+    """

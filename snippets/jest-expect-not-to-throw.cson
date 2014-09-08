@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect not to throw':
+    'prefix': 'enthrow'
+    'body': """
+        expect(function() { $1 }).not.toThrow($2);
+    """

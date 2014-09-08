@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect not called':
+    'prefix': 'enc'
+    'body': """
+        expect($1).not.toBeCalled();
+    """

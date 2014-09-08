@@ -1,0 +1,7 @@
+'.source.js .spec':
+  'jest mock':
+    'prefix': 'mck'
+    'body': """
+        var $1Mock;
+        $1Mock = jest.genMockFunction();
+    """

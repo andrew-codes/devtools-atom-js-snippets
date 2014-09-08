@@ -1,0 +1,6 @@
+'.source.js':
+  'not implemented error':
+    'prefix': 'nie'
+    'body': """
+        throw new Error('Not Implemented');$1
+    """

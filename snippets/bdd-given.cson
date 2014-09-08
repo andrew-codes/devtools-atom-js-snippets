@@ -1,0 +1,8 @@
+'.source.js .spec':
+  'given':
+    'prefix': 'given'
+    'body': """
+        describe('given $1', function() {
+            $2
+        });
+    """

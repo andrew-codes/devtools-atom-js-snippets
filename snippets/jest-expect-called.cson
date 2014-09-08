@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect called':
+    'prefix': 'ec'
+    'body': """
+        expect($1).toBeCalled();
+    """

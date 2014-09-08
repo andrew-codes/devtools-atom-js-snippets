@@ -1,0 +1,8 @@
+'.source.js .spec':
+  'before each':
+    'prefix': 'be'
+    'body': """
+        beforeEach(function() {
+            $1
+        });
+    """

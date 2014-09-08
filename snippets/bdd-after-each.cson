@@ -1,0 +1,8 @@
+'.source.js .spec':
+  'after each':
+    'prefix': 'ae'
+    'body': """
+        afterEach(function() {
+            $1
+        });
+    """

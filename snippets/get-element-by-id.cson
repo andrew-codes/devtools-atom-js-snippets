@@ -1,0 +1,6 @@
+'.source.js':
+  'get element by ID':
+    'prefix': 'gi'
+    'body': """
+        ${1:document}.getElementById('${2:id}');
+    """

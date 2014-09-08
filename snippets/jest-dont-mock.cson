@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest don\'t mock':
+    'prefix': 'dm'
+    'body': """
+        dontMock('$1')
+    """

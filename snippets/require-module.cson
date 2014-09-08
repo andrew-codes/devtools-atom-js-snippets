@@ -1,0 +1,6 @@
+'source.js':
+  'require module':
+    'prefix': 'require'
+    'body': """
+        var $1 = require('$2');
+    """

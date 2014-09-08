@@ -1,0 +1,6 @@
+'.source.js .spec':
+  'jest expect called with':
+    'prefix': 'ecw'
+    'body': """
+        expect($1).toBeCalledWith($2);
+    """
