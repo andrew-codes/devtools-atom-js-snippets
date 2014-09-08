@@ -1,4 +1,4 @@
-'.source.js .spec':
+'.source.js':
   'jest expect true':
     'prefix': 'et'
     'body': """

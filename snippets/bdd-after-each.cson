@@ -1,4 +1,4 @@
-'.source.js .spec':
+'.source.js':
   'after each':
     'prefix': 'ae'
     'body': """

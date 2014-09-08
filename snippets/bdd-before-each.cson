@@ -1,4 +1,4 @@
-'.source.js .spec':
+'.source.js':
   'before each':
     'prefix': 'be'
     'body': """

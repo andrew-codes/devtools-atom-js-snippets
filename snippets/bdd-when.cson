@@ -1,4 +1,4 @@
-'.source.js .spec':
+'.source.js':
   'when':
     'prefix': 'when'
     'body': """

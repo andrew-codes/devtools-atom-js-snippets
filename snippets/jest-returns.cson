@@ -1,4 +1,4 @@
-'.source.js .spec':
+'.source.js':
   'jest returns once':
     'prefix': 'returnsonce'
     'body': """

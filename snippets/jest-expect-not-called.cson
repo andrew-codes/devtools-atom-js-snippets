@@ -1,4 +1,4 @@
-'.source.js .spec':
+'.source.js':
   'jest expect not called':
     'prefix': 'enc'
     'body': """
