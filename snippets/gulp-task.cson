@@ -1,6 +1,6 @@
 '.source.js':
   'gulp task':
-    'prefix': 'gt'
+    'prefix': 'gulpt'
     'body': """
         gulp.task('$1', [$2], function(){
             ${3:throw new Error('Not Implemented');}
