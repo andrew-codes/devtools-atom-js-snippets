@@ -1,6 +1,6 @@
 '.source.js':
-  'console.warn':
-    'prefix': 'cw'
-    'body': """
-        console.warn($1);
-    """
+	'console.warn':
+		'prefix': 'cw'
+		'body': """
+				console.warn($1);
+		"""

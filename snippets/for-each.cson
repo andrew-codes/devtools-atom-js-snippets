@@ -1,8 +1,8 @@
 '.source.js':
-  'for each':
-    'prefix': 'fe'
-    'body': """
-        ${1:myArray}.forEach(function(${2:item})) {
-            ${3:throw new Error('Not Implemented');}
-        });
-    """
+	'for each':
+		'prefix': 'fe'
+		'body': """
+				${1:myArray}.forEach((${2:item}) => {
+					${3:throw new Error('Not Implemented');}
+				});
+		"""

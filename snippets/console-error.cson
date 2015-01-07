@@ -1,6 +1,6 @@
 '.source.js':
-  'console.error':
-    'prefix': 'ce'
-    'body': """
-        console.error($1);
-    """
+	'console.error':
+		'prefix': 'ce'
+		'body': """
+				console.error($1);
+		"""

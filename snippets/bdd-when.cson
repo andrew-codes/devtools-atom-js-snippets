@@ -1,8 +1,15 @@
 '.source.js':
-  'when':
-    'prefix': 'when'
-    'body': """
-        describe('when $1', function() {
-            $2
-        });
-    """
+	'when':
+		'prefix': 'when'
+		'body': """
+				describe('when $1', () => {
+					$2
+				});
+		"""
+'.source.coffee':
+	'when':
+		'prefix': 'when'
+		'body': """
+				describe 'when $1', () ->
+					$2
+		"""

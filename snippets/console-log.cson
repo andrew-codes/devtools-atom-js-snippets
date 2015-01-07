@@ -1,6 +1,12 @@
 '.source.js':
   'console.log':
-    'prefix': 'cl'
-    'body': """
-        console.log($1);
-    """
+	'prefix': 'cl'
+	'body': """
+			console.log($1);
+	"""
+'.source.coffee':
+  'console.log':
+	'prefix': 'cl'
+	'body': """
+			console.log($1)
+	"""

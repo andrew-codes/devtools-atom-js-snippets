@@ -1,8 +1,15 @@
 '.source.js':
-  'given':
-    'prefix': 'given'
-    'body': """
-        describe('given $1', function() {
-            $2
-        });
-    """
+	'given':
+		'prefix': 'given'
+		'body': """
+				describe('given $1', () => {
+					$2
+				});
+		"""
+'.source.coffee':
+	'given':
+		'prefix': 'given'
+		'body': """
+				describe 'given $1', () ->
+					$2
+		"""

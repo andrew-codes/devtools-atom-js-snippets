@@ -1,0 +1,6 @@
+'.source.js':
+	'import default module':
+		'prefix': 'impd'
+		'body': """
+				import * as $1 from '$2';
+		"""

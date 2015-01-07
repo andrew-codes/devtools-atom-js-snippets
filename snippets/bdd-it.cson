@@ -1,8 +1,15 @@
 '.source.js':
-  'it':
-    'prefix': 'it'
-    'body': """
-        it('should $1', function() {
-            $2
-        });
-    """
+	'it':
+		'prefix': 'it'
+		'body': """
+				it('it should $1', () => {
+					$2
+				});
+		"""
+'.source.coffee':
+	'it':
+		'prefix': 'it'
+		'body': """
+				it 'it should $1', () ->
+					$2
+		"""

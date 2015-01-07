@@ -1,6 +1,6 @@
 '.source.js':
-  'jest don\'t mock':
-    'prefix': 'dm'
-    'body': """
-        dontMock('$1')
-    """
+	'jest don\'t mock':
+		'prefix': 'dm'
+		'body': """
+			dontMock('$1')
+		"""

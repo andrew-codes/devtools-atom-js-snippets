@@ -1,8 +1,15 @@
 '.source.js':
-  'after each':
-    'prefix': 'ae'
-    'body': """
-        afterEach(function() {
-            $1
-        });
-    """
+	'after each':
+		'prefix': 'ae'
+		'body': """
+				afterEach(() => {
+					$1
+				});
+		"""
+'.source.coffee':
+	'after each':
+		'prefix': 'ae'
+		'body': """
+				afterEach () ->
+					$1
+		"""

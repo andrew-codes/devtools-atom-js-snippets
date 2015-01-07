@@ -1,8 +1,8 @@
 '.source.js':
-  'function':
-    'prefix': 'afn'
-    'body': """
-        function($1) {
-            ${2:throw new Error('Not Implemented');}
-        }
-    """
+	'anonymous function':
+		'prefix': 'afn'
+		'body': """
+				function($1) {
+					${2:throw new Error('Not Implemented');}
+				}
+		"""
